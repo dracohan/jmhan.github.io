@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T06:03:03.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="1B3QkG2pJ4rBS8hjgPVc" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-30T02:23:36.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="-FPvFQjrznm_q5Gc1IBS" version="14.6.5" type="github">
   <diagram id="RH-BXJlY21HK2ncOQb-6" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,13 +26,6 @@
         </mxCell>
         <mxCell id="VPZMi2zPwCTPfSnQQ41B-53" value="&lt;font style=&quot;font-size: 30px&quot;&gt;LLB(4MB）&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;direction=east;flipV=0;horizontal=0;fontSize=25;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="550" y="585" width="40" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="VPZMi2zPwCTPfSnQQ41B-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="VPZMi2zPwCTPfSnQQ41B-54" target="VPZMi2zPwCTPfSnQQ41B-154" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="870" y="790" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="VPZMi2zPwCTPfSnQQ41B-54" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&amp;nbsp; NCP&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="740" y="790" width="600" height="240" as="geometry" />
@@ -153,6 +146,9 @@
         <mxCell id="VPZMi2zPwCTPfSnQQ41B-135" value="&lt;span style=&quot;font-size: 20px&quot;&gt;MME&lt;br&gt;fp16: 32*64&lt;br&gt;int8: 32*128&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1037.6" y="850" width="290" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="2h-o2RLka2krurUrH0nV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=1;strokeColor=#FF0000;" edge="1" parent="1" source="VPZMi2zPwCTPfSnQQ41B-136" target="VPZMi2zPwCTPfSnQQ41B-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VPZMi2zPwCTPfSnQQ41B-136" value="&lt;span style=&quot;font-size: 20px&quot;&gt;Data Input&lt;br&gt;Buffer&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;direction=south;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="925.1" y="850" width="94.9" height="120" as="geometry" />
         </mxCell>
@@ -226,6 +222,14 @@
         </mxCell>
         <mxCell id="VPZMi2zPwCTPfSnQQ41B-175" value="bitwidth = 1024 bit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="815.1" y="610" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VPZMi2zPwCTPfSnQQ41B-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="VPZMi2zPwCTPfSnQQ41B-134" target="VPZMi2zPwCTPfSnQQ41B-154" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="820" />
+              <mxPoint x="870" y="820" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
