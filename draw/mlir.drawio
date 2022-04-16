@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T11:49:01.117Z" agent="5.0 (X11)" etag="FL18KJtOX04O617l5JVj" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-16T13:50:20.541Z" agent="5.0 (X11)" etag="Kd0qYPl8qDv68chqROPO" version="17.4.5" type="github">
   <diagram id="DV5vfjEKdpcPcG9oqdHT" name="Page-1">
     <mxGraphModel dx="1718" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry y="40" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Tq9iiBiDWfjPAQlPNNGn-9" value="MLIRContextImpl" style="swimlane;fontColor=#000000;fillColor=default;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="355" y="140" width="635" height="620" as="geometry" />
+          <mxGeometry x="355" y="140" width="635" height="750" as="geometry" />
         </mxCell>
         <mxCell id="Tq9iiBiDWfjPAQlPNNGn-11" value="DenseMap&lt;TypeID, AbstractType *&gt; registeredTypes;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
           <mxGeometry x="5" y="95" width="490" height="30" as="geometry" />
@@ -33,6 +33,12 @@
         </mxCell>
         <mxCell id="Tq9iiBiDWfjPAQlPNNGn-20" value="AffineMapAttr, ArrayAttr, DenseIntOrFPElementsAttr,&#xa;                DenseStringElementsAttr, DictionaryAttr, FloatAttr,&#xa;                SymbolRefAttr, IntegerAttr, IntegerSetAttr, OpaqueAttr,&#xa;                OpaqueElementsAttr, SparseElementsAttr, StringAttr, TypeAttr,&#xa;                UnitAttr&#xa;::mlir::CallSiteLoc,&#xa;::mlir::FileLineColLoc,&#xa;::mlir::FusedLoc,&#xa;::mlir::NameLoc,&#xa;::mlir::OpaqueLoc,&#xa;::mlir::UnknownLoc" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
           <mxGeometry x="225" y="420" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-21" value="llvm::StringMap&lt;OperationName::Impl&gt; operations;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
+          <mxGeometry x="-95" y="580" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-22" value="::mlir::ModuleOp,&#xa;::mlir::UnrealizedConversionCastOp" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
+          <mxGeometry x="225" y="610" width="340" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
