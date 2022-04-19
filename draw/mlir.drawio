@@ -1,44 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T13:50:26.543Z" agent="5.0 (X11)" etag="d6TKq6m7LamisfmTsQKO" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-19T10:46:18.955Z" agent="5.0 (X11)" etag="nxf5c1Ez_ORi3kJrOk75" version="17.4.5" type="github">
   <diagram id="DV5vfjEKdpcPcG9oqdHT" name="Page-1">
-    <mxGraphModel dx="1718" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1653" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="Tq9iiBiDWfjPAQlPNNGn-5" target="Tq9iiBiDWfjPAQlPNNGn-9">
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" parent="1" source="Tq9iiBiDWfjPAQlPNNGn-5" target="Tq9iiBiDWfjPAQlPNNGn-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-5" value="MLIRContext" style="swimlane;fontColor=#000000;fillColor=default;startSize=23;" vertex="1" parent="1">
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-5" value="MLIRContext" style="swimlane;fontColor=#000000;fillColor=default;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="-10" y="140" width="310" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-7" value="const std::unique_ptr&lt;MLIRContextImpl&gt; impl;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-5">
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-7" value="const std::unique_ptr&lt;MLIRContextImpl&gt; impl;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="Tq9iiBiDWfjPAQlPNNGn-5" vertex="1">
           <mxGeometry y="40" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-9" value="MLIRContextImpl" style="swimlane;fontColor=#000000;fillColor=default;startSize=23;" vertex="1" parent="1">
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-9" value="MLIRContextImpl" style="swimlane;fontColor=#000000;fillColor=default;startSize=23;align=left;" parent="1" vertex="1">
           <mxGeometry x="355" y="140" width="635" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-11" value="DenseMap&lt;TypeID, AbstractType *&gt; registeredTypes;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-11" value="DenseMap&lt;TypeID, AbstractType *&gt; registeredTypes;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="Tq9iiBiDWfjPAQlPNNGn-9" vertex="1">
           <mxGeometry x="5" y="95" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-13" value="::mlir::BFloat16Type,&#xa;::mlir::ComplexType,&#xa;::mlir::Float128Type,&#xa;::mlir::Float16Type,&#xa;::mlir::Float32Type,&#xa;::mlir::Float64Type,&#xa;::mlir::Float80Type,&#xa;::mlir::FunctionType,&#xa;::mlir::IndexType,&#xa;::mlir::IntegerType,&#xa;::mlir::MemRefType,&#xa;::mlir::NoneType,&#xa;::mlir::OpaqueType,&#xa;::mlir::RankedTensorType,&#xa;::mlir::TupleType,&#xa;::mlir::UnrankedMemRefType,&#xa;::mlir::UnrankedTensorType,&#xa;::mlir::VectorType" style="text;whiteSpace=wrap;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-13" value="::mlir::BFloat16Type,&#xa;::mlir::ComplexType,&#xa;::mlir::Float128Type,&#xa;::mlir::Float16Type,&#xa;::mlir::Float32Type,&#xa;::mlir::Float64Type,&#xa;::mlir::Float80Type,&#xa;::mlir::FunctionType,&#xa;::mlir::IndexType,&#xa;::mlir::IntegerType,&#xa;::mlir::MemRefType,&#xa;::mlir::NoneType,&#xa;::mlir::OpaqueType,&#xa;::mlir::RankedTensorType,&#xa;::mlir::TupleType,&#xa;::mlir::UnrankedMemRefType,&#xa;::mlir::UnrankedTensorType,&#xa;::mlir::VectorType" style="text;whiteSpace=wrap;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="Tq9iiBiDWfjPAQlPNNGn-9" vertex="1">
           <mxGeometry x="205" y="115" width="290" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-14" value="DenseMap&lt;StringRef, std::unique_ptr&lt;Dialect&gt;&gt; loadedDialects;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-14" value="DenseMap&lt;StringRef, std::unique_ptr&lt;Dialect&gt;&gt; loadedDialects;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="Tq9iiBiDWfjPAQlPNNGn-9" vertex="1">
           <mxGeometry y="40" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-15" value="BuiltinDialect" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-15" value="BuiltinDialect" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="Tq9iiBiDWfjPAQlPNNGn-9" vertex="1">
           <mxGeometry x="165" y="55" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-18" value="DenseMap&lt;TypeID, AbstractAttribute *&gt; registeredAttributes;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-18" value="DenseMap&lt;TypeID, AbstractAttribute *&gt; registeredAttributes;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="Tq9iiBiDWfjPAQlPNNGn-9" vertex="1">
           <mxGeometry x="-125" y="395" width="580" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-20" value="AffineMapAttr, ArrayAttr, DenseIntOrFPElementsAttr,&#xa;                DenseStringElementsAttr, DictionaryAttr, FloatAttr,&#xa;                SymbolRefAttr, IntegerAttr, IntegerSetAttr, OpaqueAttr,&#xa;                OpaqueElementsAttr, SparseElementsAttr, StringAttr, TypeAttr,&#xa;                UnitAttr&#xa;::mlir::CallSiteLoc,&#xa;::mlir::FileLineColLoc,&#xa;::mlir::FusedLoc,&#xa;::mlir::NameLoc,&#xa;::mlir::OpaqueLoc,&#xa;::mlir::UnknownLoc" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-20" value="AffineMapAttr, ArrayAttr, DenseIntOrFPElementsAttr,&#xa;                DenseStringElementsAttr, DictionaryAttr, FloatAttr,&#xa;                SymbolRefAttr, IntegerAttr, IntegerSetAttr, OpaqueAttr,&#xa;                OpaqueElementsAttr, SparseElementsAttr, StringAttr, TypeAttr,&#xa;                UnitAttr&#xa;::mlir::CallSiteLoc,&#xa;::mlir::FileLineColLoc,&#xa;::mlir::FusedLoc,&#xa;::mlir::NameLoc,&#xa;::mlir::OpaqueLoc,&#xa;::mlir::UnknownLoc" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="Tq9iiBiDWfjPAQlPNNGn-9" vertex="1">
           <mxGeometry x="225" y="420" width="350" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-21" value="llvm::StringMap&lt;OperationName::Impl&gt; operations;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-21" value="llvm::StringMap&lt;OperationName::Impl&gt; operations;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="Tq9iiBiDWfjPAQlPNNGn-9" vertex="1">
           <mxGeometry x="-95" y="580" width="480" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-22" value="::mlir::ModuleOp,&#xa;::mlir::UnrealizedConversionCastOp" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
+        <mxCell id="Tq9iiBiDWfjPAQlPNNGn-22" value="::mlir::ModuleOp,&#xa;::mlir::UnrealizedConversionCastOp" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="Tq9iiBiDWfjPAQlPNNGn-9" vertex="1">
           <mxGeometry x="225" y="600" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4yHJ4TsnxQKIXCcD5p0I-5" value="DialectRegistry dialectsRegistry;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Tq9iiBiDWfjPAQlPNNGn-9">
+          <mxGeometry x="5" y="650" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4yHJ4TsnxQKIXCcD5p0I-1" value="PassManager" style="swimlane;fontColor=#000000;fillColor=default;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="140" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4yHJ4TsnxQKIXCcD5p0I-2" value="const std::unique_ptr&lt;MLIRContextImpl&gt; impl;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="4yHJ4TsnxQKIXCcD5p0I-1">
+          <mxGeometry y="40" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4yHJ4TsnxQKIXCcD5p0I-3" value="DialectRegistry" style="swimlane;fontColor=#000000;fillColor=default;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="140" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4yHJ4TsnxQKIXCcD5p0I-4" value="const std::unique_ptr&lt;MLIRContextImpl&gt; impl;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="4yHJ4TsnxQKIXCcD5p0I-3">
+          <mxGeometry y="40" width="260" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
