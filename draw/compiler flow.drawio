@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T01:58:09.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="g-YoCJqY2COYhyBZR1LU" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T08:28:46.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="fr2b9f4xqDZVOPKjy6yb" version="22.1.2" type="github">
   <diagram name="第 1 页" id="F7G0wo-fSYltlhvz1KPH">
     <mxGraphModel dx="1688" dy="1796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -157,7 +157,7 @@
         <mxCell id="lu5vzIWfbGRgdcT6hFBd-18" value="New:&lt;br&gt;- Dialect conversion&lt;br&gt;- Broadcast" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="750" y="216" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="lu5vzIWfbGRgdcT6hFBd-20" value="Inherit:&lt;br&gt;FrontEnd pass" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="lu5vzIWfbGRgdcT6hFBd-20" value="Inherit:&lt;br&gt;Binary gen logic" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="490" y="345" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="lu5vzIWfbGRgdcT6hFBd-21" value="Obsolete:&lt;br&gt;-NetworkDefinition" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
